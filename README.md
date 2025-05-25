@@ -26,7 +26,7 @@ Este proyecto es una **aplicación fullstack de ecommerce** desarrollada como **
 ## 🖼️ Capturas de Pantalla
 
 ### 🏪 Vista principal del ecommerce
-![Vista productos](./docs/main.png)
+![Vista productos](./docs/Main.png)
 
 ### 🛒 Resumen de pedido 
 ![Resume](./docs/Resume.png)
