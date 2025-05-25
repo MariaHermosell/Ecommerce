@@ -120,7 +120,7 @@ npm test
 
 ## 💳 Credenciales de Prueba (Stripe)
 
-**Clave Pública:** `pk_test_51RSj2S2f...`  
+**Clave Pública:** `pk_test_51RSj2S2fI1yhs29X6tGvtYNUIEsDFDlkMDfDoSUNlcVDHcas2im3iNrfhjMeRIoubgqJDCNsYA1BOfqf35QLiGDv00Sz6oNfgy`  
 **Clave Secreta:** *(configurar en .env)*
 
 **Tarjeta de prueba:**  
