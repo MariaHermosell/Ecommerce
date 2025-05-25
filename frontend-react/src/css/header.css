@@ -1,0 +1,141 @@
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.search-container {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0; 
+  border: none; 
+  border-bottom: 1px solid black; 
+  background-color: transparent; 
+  color: black;
+  outline: none;
+}
+
+.search-input:focus {
+  border-bottom: 2px solid black; 
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.nav-links a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+.menu-desplegable {
+  position: absolute;
+  top: 3.5rem; 
+  left: 0.5rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  width: 220px;
+  z-index: 150;
+}
+
+.menu-desplegable ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.menu-desplegable li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.menu-desplegable li:hover {
+  background-color: transparent;
+}
+
+.menu-desplegable a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+
+.submenu-titulo {
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  display: block;
+  cursor: default;
+}
+
+.submenu {
+  list-style: none;
+  margin: 0;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  background-color: transparent; 
+  box-shadow: none; 
+}
+
+.submenu li {
+  padding: 0.3rem 1rem;
+  background-color: transparent; 
+}
+
+.submenu li:hover {
+  background-color: #fff;
+}
+.menu-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; 
+  text-align: left; 
+}
+.menu-button:hover {
+  background-color: #f0f0f0; 
+}
+.carrito-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: black;
+  padding: 0;
+}
+.carrito-button:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,136 @@
+.product-gallery-container {
+  background-color: #fff;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.product-gallery-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  row-gap: 20rem;
+  justify-content: center;
+}
+
+.product-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  background-color: #fff;
+  transition: transform 0.3s;
+  margin: auto;
+  cursor: pointer;
+}
+
+.product-card.large {
+  flex: 1 1 100%;
+  max-width: 800px;
+}
+
+.product-card.small {
+  flex: 1 1 48%;
+  max-width: 400px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-info {
+  padding: 10px;
+}
+
+.product-title {
+  margin: 0;
+  font-weight: bold;
+  color: #222;
+}
+
+.product-price {
+  margin: 0;
+  color: #666;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: #222;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.modal-close-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.modal-buttons {
+  display: flex;
+  justify-content: center; 
+  gap: 1rem;                
+  margin-top: 1rem;         
+}
+
+.modal-buttons button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.modal-buttons button:first-child {
+  background-color: #222;
+  color: white;
+}
+
+.modal-buttons button:first-child:hover {
+  background-color: #444;
+}
+
+.modal-buttons button:last-child {
+  background-color: #ccc;
+  color: #333;
+}
+
+.modal-buttons button:last-child:hover {
+  background-color: #aaa;
+}
